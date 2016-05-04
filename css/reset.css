@@ -1,0 +1,74 @@
+/* CSS Document */
+/*------------------------base------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3,
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, font, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt,
+var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+:focus { outline: 0;}
+a, a:link, a:visited, a:hover, a:active{text-decoration:none;}
+table { border-collapse: separate;border-spacing: 0;}
+th, td {text-align: left; font-weight: normal;}
+img, iframe {border: none; text-decoration:none;}
+ol, ul {list-style: none;}
+input, textarea, select, button {font-size: 100%;font-family: inherit;}
+select {margin: inherit;}
+hr {margin: 0;padding: 0;border: 0;color: #000;background-color: #000;height: 1px}
+body{
+    font-family:"微软雅黑",Verdana, Geneva, sans-serif;
+    font-size:12px;
+    color:#666;
+}
+div, h1, h2, h3, h4, p, form, label, textarea, img, span{
+    margin:0; padding:0; border:0;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+input{ margin:0; padding:0;}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+a,a:link{
+    color:#CCC;
+    text-decoration:none
+}
+a:hover{
+    color:#d20e18;
+    text-decoration:none
+}
+.clearfix:after{
+    content:".";display: block;height: 0;clear: both;visibility: hidden;font-size:0;line-height:0;
+}
+.clearfix{
+    *zoom: 1;
+}
+/*Nicolas Gallagher 大湿提出*/
+/*.cf:before,.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after { clear:both; }*//* For IE 6/7 (trigger hasLayout) *//*
+.cf { zoom:1; }*/
+/*解决ul清楚浮动把相邻的浮动也给包裹了*/
+/*
+.clearfix{
+    *zoom: 1;
+    display:table;
+}
+*/

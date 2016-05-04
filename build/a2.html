@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<script type="text/javascript" src="flowplayer-3.2.4.min.js"></script>
+	<script>
+			window.onload = function() {
+				$f("player", "flowplayer.commercial.swf", {
+					clip: {
+						autoPlay: false,
+						autoBuffering: true
+					},
+					plugins: {						
+						controls: {
+							url: 'flowplayer.controls-3.2.4-dev.swf'
+						}		
+
+					}
+				})
+			};
+	</script>	
+ 
+ <div id="page">
+  	 <a  href="http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-700.flv"  
+			 style="display:block;width:520px;height:330px"  
+			 id="player"> 
+	</a> 
+</div>
+</body>
+</html>
